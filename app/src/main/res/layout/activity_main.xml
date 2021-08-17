@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--이름영역-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:weightSum="10"
+        >
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:textSize="50px"
+            android:text="이름"
+            android:padding="10px"
+            />
+
+
+        <EditText
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="8.5"
+            android:textSize="50px"
+            android:hint="이름을 입력해 주세요"
+            />
+
+    </LinearLayout>
+    <!--/이름영역-->
+
+    <!--패스워드영역-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:weightSum="10"
+        >
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:textSize="50px"
+            android:text="패스워드"
+            android:padding="10px"
+            />
+
+
+        <EditText
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="8.5"
+            android:textSize="50px"
+            android:hint="패스워드를 입력해 주세요"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
+    <!--/패스워드영역-->
+
+    <!--컨텐츠영역-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:textSize="50px"
+            android:hint="내용을 입력해 주세요"
+            android:lines="5"
+            />
+
+    </LinearLayout>
+    <!--/컨텐츠영역-->
+
+    <!--버튼영역-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30px"
+            android:text="저장"
+            android:textSize="50px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+
+            />
+    </LinearLayout>
+    <!--/버튼영역-->
+
+
+</LinearLayout>
