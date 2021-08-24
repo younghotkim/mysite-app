@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:text="번호"
+            android:textSize="50px"
+            android:gravity="center_vertical"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:id="@+id/txtNo"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:text="no"
+            android:textSize="50px"
+            android:gravity="center_vertical"
+            android:layout_weight="8"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:text="이름"
+            android:textSize="50px"
+            android:gravity="center_vertical"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:text="name"
+            android:textSize="50px"
+            android:gravity="center_vertical"
+            android:layout_weight="8"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:text="날짜"
+            android:textSize="50px"
+            android:gravity="center_vertical"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:id="@+id/txtRegDate"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:text="regDate"
+            android:textSize="50px"
+            android:gravity="center_vertical"
+            android:layout_weight="8"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:text="내용"
+            android:textSize="50px"
+            android:gravity="center_vertical"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:id="@+id/txtContent"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:text="Content"
+            android:textSize="50px"
+            android:gravity="center_vertical"
+            android:layout_weight="8"
+            android:lines="5"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnGoList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="리스트로 이동"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--1라인-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BFBFBF">
+
+        <TextView
+            android:id="@+id/txtNo"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_margin="2px"
+            android:background="#FFFFFF"
+            android:text="1"
+            />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_margin="2px"
+            android:background="#FFFFFF"
+            android:text="호날두"
+            />
+
+        <TextView
+            android:id="@+id/txtRegDate"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_margin="2px"
+            android:background="#FFFFFF"
+            android:text="2021-08-19-1"
+            />
+
+
+
+
+    </LinearLayout>
+    <!--1라인-->
+
+
+    <!--2라인-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="호우~~~!"
+            android:background="#FFFFFF"
+        />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
