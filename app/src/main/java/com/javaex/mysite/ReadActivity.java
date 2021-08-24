@@ -65,6 +65,9 @@ public class ReadActivity extends AppCompatActivity {
         /////////////버튼클릭/////////////////////
         ///////////////////////////////////////
 
+
+
+
         btnGoList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
