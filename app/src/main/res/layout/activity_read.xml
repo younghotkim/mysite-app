@@ -129,6 +129,13 @@
             android:text="리스트로 이동"
             />
 
+        <Button
+            android:id="@+id/btnGoModify"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="수정하기"
+            />
+
 
     </LinearLayout>
 
